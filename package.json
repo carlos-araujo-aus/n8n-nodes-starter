@@ -1,19 +1,19 @@
 {
 	"name": "n8n-nodes-verify-email",
 	"version": "0.1.0",
-	"description": "",
+	"description": "Verify Email Node for n8n",
 	"license": "MIT",
 	"homepage": "",
 	"keywords": [
 		"n8n-community-node-package"
 	],
 	"author": {
-		"name": "",
-		"email": ""
+		"name": "Carlos Araujo",
+		"email": "carlos.araujo.aus@gmail.com"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/<...>/n8n-nodes-<...>.git"
+		"url": "https://github.com/carlos-araujo-aus/n8n-nodes-verify-email.git"
 	},
 	"scripts": {
 		"build": "n8n-node build",
@@ -34,7 +34,6 @@
 			"dist/credentials/VerifyEmailApi.credentials.ts"
 		],
 		"nodes": [
-			"dist/nodes/VerifyEmail/VerifyEmail.node.js",
 			"dist/nodes/VerifyEmailProgrammatic/VerifyEmail.node.js"
 		]
 	},

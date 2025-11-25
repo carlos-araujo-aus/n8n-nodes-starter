@@ -4,8 +4,8 @@ import { INodeType, INodeTypeDescription, NodeConnectionTypes } from 'n8n-workfl
 export class VerifyEmail implements INodeType {
 	description: INodeTypeDescription = {
         displayName: 'Verify Email',
-        name: 'VerifyEmail',
-        icon: 'file:email.png',
+        name: 'verifyEmail',
+        icon: 'file:email.svg',
         group: ['transform'],
         version: 1,
         subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
@@ -44,6 +44,7 @@ export class VerifyEmail implements INodeType {
                     }
                 }
             },           
-        ]
+        ],
+		usableAsTool: true
 	};
 }

@@ -3,8 +3,8 @@ import { IDataObject, INodeExecutionData, INodeType, INodeTypeDescription, NodeC
 export class VerifyEmail implements INodeType {
 	description: INodeTypeDescription = {
         displayName: 'Verify Email Programmatic',
-        name: 'VerifyEmailProgrammatic',
-        icon: 'file:email.png',
+        name: 'verifyEmailProgrammatic',
+        icon: 'file:email.svg',
         group: ['transform'],
         version: 1,
         subtitle: '={{$parameter["email"]}}',  // ← Cambiar a parámetro que existe
@@ -33,7 +33,8 @@ export class VerifyEmail implements INodeType {
                 required: true,
                 description: 'The email address to verify',
             },           
-        ]
+        ],
+		usableAsTool: true
 	};
 
 	async execute(this: IExecuteFunctions): Promise<INodeExecutionData[][]> {
