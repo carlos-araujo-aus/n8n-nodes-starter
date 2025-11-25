@@ -34,10 +34,10 @@
 		"n8nNodesApiVersion": 1,
 		"strict": true,
 		"credentials": [
-			"dist/credentials/VerifyEmailApi.credentials.ts"
+			"dist/credentials/VerifyEmailApi.credentials.js"
 		],
 		"nodes": [
-			"dist/nodes/VerifyEmailProgrammatic/VerifyEmailProgrammatic.node.ts"
+			"dist/nodes/VerifyEmailProgrammatic/VerifyEmailProgrammatic.node.js"
 		]
 	},
 	"devDependencies": {
