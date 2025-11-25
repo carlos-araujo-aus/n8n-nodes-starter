@@ -1,6 +1,6 @@
 import { IDataObject, INodeExecutionData, INodeType, INodeTypeDescription, NodeConnectionTypes, IExecuteFunctions} from 'n8n-workflow';
 
-export class VerifyEmail implements INodeType {
+export class VerifyEmailProgrammatic implements INodeType {
 	description: INodeTypeDescription = {
         displayName: 'Verify Email Programmatic',
         name: 'verifyEmailProgrammatic',
