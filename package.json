@@ -34,7 +34,8 @@
 			"dist/credentials/VerifyEmailApi.credentials.ts"
 		],
 		"nodes": [
-			"dist/nodes/VerifyEmail/VerifyEmail.node.js"
+			"dist/nodes/VerifyEmail/VerifyEmail.node.js",
+			"dist/nodes/VerifyEmailProgrammatic/VerifyEmail.node.js"
 		]
 	},
 	"devDependencies": {
